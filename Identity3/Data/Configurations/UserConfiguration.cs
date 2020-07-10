@@ -30,7 +30,7 @@ namespace Identity3.Data.Configurations
                 {
                     Id = "2",
                     UserName = "mary.lamb@gmail.com",
-                    NormalizedUserName = "MARYLAMB@GMAIL.COM",
+                    NormalizedUserName = "MARY.LAMB@GMAIL.COM",
                     Email = "mary.lamb@gmail.com",
                     NormalizedEmail = "MARY.LAMB@GMAIL.COM",
                     EmailConfirmed = true,
