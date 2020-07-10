@@ -15,12 +15,13 @@ namespace Identity3.Pages.Special
         
         public IndexModel()
         {
-            //var inRole = User.IsInRole("Administrator");
+           
             //This is null because the Principle user has not been created
         }
         public void OnGet()
         {
-            
+            ;
+            var inRole = User.IsInRole("Administrator");
         }
     }
 }
